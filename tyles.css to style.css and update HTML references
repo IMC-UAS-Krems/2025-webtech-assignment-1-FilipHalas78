@@ -1,0 +1,29 @@
+[33mcommit 8516c33ff6b574e6137a62c98b085b980216a6cd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Filip <151365055+filip9121@users.noreply.github.com>
+Date:   Mon Nov 3 13:31:03 2025 +0100
+
+    Rename styles.css to style.css
+
+[33mcommit fa5cb2c3dd7b9529bb43fab11690233eeac29e09[m
+Author: Stefan Klikovits <stefan@klikovits.net>
+Date:   Mon Nov 3 13:23:33 2025 +0100
+
+    restore protected files
+
+[33mcommit 299b3e659e22c71e9b3e1aae092cb12f5284bacb[m
+Author: Filip Halas <151365055+FilipHalas78@users.noreply.github.com>
+Date:   Mon Nov 3 11:29:07 2025 +0100
+
+    Add files via upload
+
+[33mcommit 948073bf5b50ab7d63fbc3ba8ac63cbaf1086d16[m
+Author: Filip <151365055+filip9121@users.noreply.github.com>
+Date:   Mon Nov 3 11:18:40 2025 +0100
+
+    Move styles.css to css folder
+
+[33mcommit fe8d12ecb020f94f4a8f5af44584db69552a2c5b[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Filip <151365055+filip9121@users.noreply.github.com>
+Date:   Mon Nov 3 10:38:59 2025 +0100
+
+    Initial commit: Complete website with all pages
