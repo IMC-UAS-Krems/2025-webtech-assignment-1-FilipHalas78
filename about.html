@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About</title>
+
+
+<!-- used w3schools HTML functions page for advice when doing the style-->
+    <style>
+        body {
+            font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #222;
+            margin: 1rem;
+            background: #e7e7e7;
+        }
+        p { margin: 0 0 1rem; }
+        a { color: #0a66c2; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <style>
+        .container {
+            max-width: 900px;
+            margin: 1rem auto;
+        }
+        .intro { margin-bottom: 1rem; }
+        .links a { margin-right: 0.5rem; color: #0a66c2; }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            align-items: start;
+        }
+        figure {
+            margin: 0;
+            background: #fafafa;
+            padding: 0.75rem;
+            border: 1px solid #eee;
+            border-radius: 6px;
+        }
+        figure img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+        }
+        figcaption {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        figcaption label {
+            font-size: 0.9rem;
+            color: #333;
+        }
+        textarea.note {
+            width: 100%;
+            min-height: 80px; 
+            resize: vertical;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 0.95rem;
+        }
+    </style>
+
+    <main class="container">
+        <section class="intro">
+            <p>About me: I am a passionate student of Bachelor in Informatics at IMC Krems.</p>
+            <p>I love coding, sports and in general being productive among other things.</p>
+            <p class="links">If interested look at my <a href="index.html">CV</a> or <a href="gallery.html">Gallery</a></p>
+        </section>
+
+        <section class="gallery" aria-label="Image gallery with notes">
+            <figure>
+            <img src="images/chess.jpeg" alt="Chess">
+            <figcaption>
+                <p class="caption">Chess — A hobby of mine that I wanted to pursue more actively but due to outside factors such as there not being stable income I decided against it I actively play on chess.com and have played 3 professional tournaments in my lifetime.</p>
+            </figcaption>
+            </figure>
+
+            <figure>
+            <img src="images/karate.jpeg" alt="Karate">
+            <figcaption>
+            
+                <p class="caption">Karate — Due to quitting hockey as a young kid. I decided to take up karate as a new sport. Currently im recovering from an injury but will start training again - 2.11.2025</p>
+            </figcaption>
+            </figure>
+
+            <figure>
+            <img src="images/java programming.png" alt="Java programming">
+            <figcaption>
+            
+                <p class="caption">Programming — As programming is something I want to focus on during my lifetime, I have had experience mostly using Python, Java and partially C. One thing I have started to enjoy are the projects we have in HTML/CSS.</p>
+            </figcaption>
+            </figure>
+        </section>
+    </main>
+<footer style="text-align: left;">
+    <p>&copy; Filip Halas</p>
+</footer>
+</body>
+</html>
