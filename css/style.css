@@ -1,3 +1,4 @@
+/* main (found a w3schools design for insipiration but experimented around with it)*/
 
 * {
     margin: 0;
@@ -13,6 +14,7 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+/* navigation bar */
 
 nav {
     background-color: #3498db;
